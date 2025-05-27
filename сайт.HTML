@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Любіма киця</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #ffe6f0;
+      color: #a80050;
+    }
+
+    header {
+      background: #ffe6f0;
+      color: #a80050;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    h1, h2, h3, h4, h5 {
+      color: #a80050;
+      background-color: #ffe6f0;
+      padding: 0.5rem;
+      border-radius: 10px;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .poem {
+      font-style: italic;
+      font-size: 1.2rem;
+      background-color: #fff0f5;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-top: 2rem;
+      text-align: center;
+      color: #a80050;
+      line-height: 1.6;
+    }
+
+    .spotify-embed {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+
+    .caption {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      font-weight: bold;
+      color: #d63384;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Я тебе дуже сильно люблю</h1>
+</header>
+
+<main>
+  <h2>Це ти моє сонечко😻</h2>
+
+  <img src="photo_5305597397835050791_y.jpg" alt="Фото 1" />
+  <img src="photo_5393440826341849653_y.jpg" alt="Фото 2" /> 
+
+  <h3>А тут дуже видно твої красіві глазки</h3>
+  <img src="photo_5210951711793997707_y.jpg" alt="Фото 3" />
+
+  <h4>Це ти моя бандіточка любіма</h4>
+  <img src="photo_5393440826341849647_y.jpg" alt="Фото 4" />
+
+  <h5>Хочу й далі цілувати твої ніжні губки</h5>
+  <img src="photo_5447532396086948711_y.jpg" alt="Фото 5" />
+
+  <div class="poem">
+    В день коли ми познайомились,<br>
+    я був дуже радий бо знав що найшов,<br>
+    кохання усього свого життя.<br>
+    Без твого чарівного голосу,<br>
+    я не зможу далі жити,<br>
+    а в твої очі хочу дивитись кожну хвилину.<br><br>
+
+    Люблю твій сміх і усмішку ясну,<br>
+    вона для мене як промінь сонця під час зливи.<br>
+    Назавжди в серці в мому ти —<br>
+    Моя кохана, моя весна. 💖
+  </div>
+
+  <div class="spotify-embed">
+    <iframe style="border-radius:12px"
+      src="https://open.spotify.com/embed/track/4SqWKzw0CbA05TGszDgMlc?utm_source=generator&theme=0"
+      width="100%" height="152" frameBorder="0" allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"></iframe>
+  </div>
+</main>
+
+<footer>
+  &copy; 2025 Простой сайт. Всі права захищені.
+</footer>
+
+</body>
+</html>
+
+<style>
+.heart-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.heart {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ff4d88;
+  transform: rotate(45deg);
+  animation: float 10s infinite ease-in-out;
+  opacity: 0.6;
+}
+
+.heart::before,
+.heart::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ff4d88;
+  border-radius: 50%;
+}
+
+.heart::before {
+  top: -10px;
+  left: 0;
+}
+
+.heart::after {
+  left: -10px;
+  top: 0;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(100vh) rotate(45deg);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(-10vh) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+
